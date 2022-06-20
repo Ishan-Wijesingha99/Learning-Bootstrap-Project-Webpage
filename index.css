@@ -2,3 +2,10 @@
 /* It's just a css framework that allows you to style and build components a lot faster */
 
 
+@media only screen and (min-width: 768px) {
+ 
+    .news-input {
+        width: 50%;
+    }
+
+}
