@@ -1,6 +1,11 @@
 /* What is bootstrap? */
 /* It's just a css framework that allows you to style and build components a lot faster */
 
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
 
 @media only screen and (min-width: 768px) {
  
@@ -9,3 +14,16 @@
     }
 
 }
+
+.front-end-cartoon {
+    height: 300px;
+}
+
+.react-Image {
+    height: 284px;
+    width: 450px;
+}
+
+.text-justify {
+    text-align: justify;
+  }
